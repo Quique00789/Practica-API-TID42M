@@ -1,0 +1,36 @@
+
+        body {
+            background-color: #222; /* Fondo oscuro */
+            color: #fff; /* Texto blanco */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #61dafb; /* Azul claro */
+        }
+
+        button {
+            background-color: #61dafb; /* Azul claro */
+            color: #fff; /* Texto blanco */
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        #tarjetasGraficas {
+            white-space: pre-wrap; /* Preserva saltos de línea en el texto JSON */
+        }
